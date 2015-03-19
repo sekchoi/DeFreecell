@@ -9,8 +9,10 @@
   src/quixote/ai/defreecell/DeFreecell.java
 
 2. Run Jar
-  mk_jar.bat
   DeFreecell.cmd
+
+3. Re-Compile
+  mk_jar.bat
 
 
 <> Menu
