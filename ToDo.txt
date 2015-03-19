@@ -1,0 +1,19 @@
+﻿
+- Free, Made 가 50% 이하면 중지
+
+-Xms768m -Xss64m
+
+- Long C: 12105 안되는 것
+
+- Good C: 31129 4759 27725 29248
+
+
+- 액션 
+ . undo 하기
+
+- Card 인식 
+ . 10장 이상 쌓인 deal 인식하기
+ . 화면 크가가 다를 경우에도 인식하기
+
+- 프리셀 프로젝트
+   http://archbon.tistory.com/m/post/85
