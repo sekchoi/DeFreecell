@@ -1,30 +1,30 @@
 ﻿
-<> Condition
+<> 실행조건
 1. Windows 7 PC
-2. Exists c:/Program Files/Microsoft Games/FreeCell/FreeCell.exe  
+2. Exists c:/Program Files/Microsoft Games/FreeCell/FreeCell.exe
 3. Eclipse (3.7 best)
-4. java 1.6~1.8 (1.7 best)  
+4. java 1.6~1.8 (1.7 최적)  
 
 
-<> Running
-1. Run Java 
+<> 실행
+1. Java로 실행 
   src/quixote/ai/defreecell/DeFreecell.java
 
-2. Run Jar
+2. Jar로 실행
   DeFreecell.cmd
 
-3. Re-Compile
+3. jar 만들기
   mk_jar.bat
 
 
-<> Menu
+<> 메뉴 설명
 1. Run : Execute Freecell program
 2. Card: Recognize Card shape
 3. Solve: Find Solutions with 6 scenarios
 4. Play : Replay best solution
 5. Next : Open new game, recognize and find Solutions
 
-<> ScreenShot
+<> 실행화면
   Screen_Solve.jpg Screen_Solve2.jpg Screen_Replay.jpg
 
-Fine
+즐게임
