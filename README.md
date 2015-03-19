@@ -1,3 +1,3 @@
 # DeFreecell
 Java Source Code: Windows 7 Freecell Recognizer, Solver, Replayer
-(Korean) 프리셀 인식 해답 찾기 풀기 재연
+(Korean) java 소스:  윈도우7 프리셀을 인식해서 해답찾고 재연한다.
