@@ -9,6 +9,5 @@ set JAR=DeFreecell.jar
 set JAVA=javaw.exe
 rem set JAVA=d:\wbin\jdk17\bin\javaw.exe
 
-start %JAVA% -cp .\%JAR% quixote.ai.defreecell.DeFreecell
-
-exit
+rem start %JAVA% -cp .\%JAR% quixote.ai.defreecell.DeFreecell
+start %JAVA% -jar %JAR%

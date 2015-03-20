@@ -9,4 +9,4 @@ set JfwHome=%PjtHome%
 del %JfwHome%\%JAR%.jar
 cd /D %JfwHome%\classes
 
-%JDK%\bin\jar cvf %JfwHome%\%JAR%.jar META-INF quixote
+%JDK%\bin\jar cvfM %JfwHome%\%JAR%.jar META-INF quixote
