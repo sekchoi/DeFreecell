@@ -2,9 +2,11 @@ package quixote.ai.defreecell.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Point;
 import java.awt.Rectangle;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -40,7 +42,7 @@ public class MainWindow extends JFrame {
 	final static String WhatsNew = "Ready\n" ;
 	
 	public final static String Icon = "/quixote/ai/defreecell/img/MainWin.jpg";
-	ConfigProp	cfg = new ConfigProp(Constant.CfgName);
+	ConfigProp	cfg = null;
 
 	// GUI Components
 	JSplitPane		splitV;
@@ -73,6 +75,16 @@ public class MainWindow extends JFrame {
 
 
 	public void run() {
+		cfg = new ConfigProp(Constant.CfgName);
+		Dimension siz = Toolkit.getDefaultToolkit().getScreenSize();
+		int del = 70;
+		if (cfg.getInt("main.win.x", 0) > siz.width-del)
+			cfg.put("main.win.x", siz.width-del);
+		
+		if (cfg.getInt("main.win.y", 0) > siz.height-del)
+			cfg.put("main.win.y", siz.height-del);	
+		cfg.save();
+
 		setTitle(Constant.Version);
 
 		try { 

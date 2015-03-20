@@ -139,7 +139,11 @@ public class ConfigProp {
 		prop.put(item, val);    	
     }
 
-	
+	public void put(String item, long val) {
+		prop.put(item, ""+val); 
+    }
+
+
 	// make cfg file
 	public boolean save()  {
 		StringBuilder sb = new StringBuilder();
