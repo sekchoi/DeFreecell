@@ -4,7 +4,7 @@
 2. Exists c:/Program Files/Microsoft Games/FreeCell/FreeCell.exe  
 3. Eclipse (3.7 best)
 4. java 1.6~1.8 (1.7 best)  
-5. All of the value of the execution window , I set to the default value(console size, card type, background color)
+5. For automatic recognition, window size and card shape must be the default
 
 
 <> Running
